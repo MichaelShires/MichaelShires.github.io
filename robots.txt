@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://michaelshires.github.io/sitemap.xml
+Sitemap: https://mshires.net//sitemap.xml
