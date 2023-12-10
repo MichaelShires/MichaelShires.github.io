@@ -2,96 +2,105 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Michael Shires
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: November 8th, 1996
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Software Engineering
+      institution: Pennsylvania State University - World Campus
+      year: 2021-2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Fundamentals of engineering.
+        - Software architecture and design processes.
+        - Engineering ethics and economics.
+    - title: Qualification as Engineering Laboratory Technician (ELT)
+      institution: Naval Nuclear Training Program
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Nuclear Field "A" School (3 months).
+        - Enlisted Nuclear Power School (6 months).
+        - Nuclear Prototype Training Unit (6 months).
+        - ELT School (6 months).
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title:  Sea-Returnee Off-Crew (SROC) Instructor, Coordinator
+      department: SROC, <a href="https://www.navsea.navy.mil/Home/NPTU/Charleston/">Naval Nuclear Prototype Training Unit (NPTU) Charleston</a>
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Train all incoming staff members to the NPTU in the fundamentals of chemistry and radiological controls.
+        - Coordinate the SROC Training Program administratively.
+        - Over 80 Instructors qualified at or before Naval Reactors date.
+
+    - title: Crew Leading ELT
+      department: Moored Training Ship (MTS) 711, Crew "D", <a href="https://www.navsea.navy.mil/Home/NPTU/Charleston/">NPTU Charleston</a>
+      year: 2021-2023
       description:
-        - Description 1.
-        - Description 2.
+        - Lead a division of 6-9 ELT Staff Instructors in maintaining chemistry control and radiological requirements.
+        - Oversee the training and graduation of ~24 ELT’s and ~300 other prospective operators per year.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Leading ELT
+      department: <a href="https://www.sublant.usff.navy.mil/SSN789/">USS Indiana (SSN 789)</a>
+      year: 2020-2021
       description:
+        - Led a division of 4-7 technicians.
+        - Directly responsible for ensuring safe operations of reactor plant chemistry control.
+        - Manager for Fast Attack Submarine radiological controls casualty response program.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: ELT
+      department: <a href="https://www.sublant.usff.navy.mil/SSN789/">USS Indiana (SSN 789)</a>
+      year: 2017-2020
+      description:
+        - Working-level technician performing chemical and radio-chemical analysis.
+        - Interpret and brief results to supervisors.
+        - Operate a submarine reactor plant safely and effectively.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://www.github.com/MichaelShires/pathFinder">pathFinder</a>
+      year: 2015-2017
+      description:
+      - Recursive implementation of <a href="https://en.wikipedia.org/wiki/Dijkstra's_algorithm">Djisktra's Algorithm</a> for shortest path.
+      - Drive a robot powered by an RPi to follow magnetic strips in industrial settings.
+      - Signal filtering and resolving for real-world reliability.
+
+    - title: <a href="https://www.github.com/MichaelShires/chemSolver">chemSolver</a>
+      year: 2023
+      description:
+        - Final project for Microprocessors course.
+        - chemical reaction parser and balancer in MIPS32 assembly.
+        - Generated linear algebra and matrix math library for solving.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018-2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Navy and Marine Corps Achievement Medal x3 (2020, 2021, 2021)
+    - year: 2022-2023
       items: 
-        - Max Planck Medal
+        - USS Indiana (SSN 789) Scholarship x2 (2022, 2023)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Reliable and Dependable Computing
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - As digital technology advances, critical infrastructure in certain applications (flight, medical, reactor safety) advance at glacial paces due to the expensive but necessary cost of testing.
+        - My gacademic goals are to use my operational knowledge of reactor plants, and organizational structures to drive this technology in a direction that regulatory organizations would approve of.
+    - title: Computer Architecture and Optimization
       items:
-        - Description 1.
-        - Description 2.
+        - As <a href="http://www.gotw.ca/publications/concurrency-ddj.htm"> Herb Sutter</a> said in 2005, "The Free Lunch Is Over" (Sutter, 2005). Transistors get smaller and the direction of computer architecture has to shift.
+        - Modern research is focusing more and more on concurrency, optimization, and hardware data transit speeds.
+        - Certain programming languages have gained immense popularity due to their ease of writing code, but relative inefficient execution. If we want to continue seeing exponential gains in computing ability, the ability for a programmer to write easy, clean code that is also optimized will be a priority.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> I am an avid fan of "The Lord of The Rings" and anything Tolkien related!
+    - When I have time I also love to cook, bake, and consider myself an amateur cinephile - mostly my wife and I just watch movies together.
