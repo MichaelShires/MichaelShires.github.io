@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e7f643-d00a-4c3a-9248-cc692d01c0d0" name="Changes" comment="Personalized site and removed a lot of stuff that isn't applicable to me. Clean slate is maintained in the 'template' branch.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+    <list default="true" id="97e7f643-d00a-4c3a-9248-cc692d01c0d0" name="Changes" comment="changed the date on the announcement_1.md and edited the name of the site to &quot;Michael Shires&quot;.">
       <change beforePath="$PROJECT_DIR$/_news/announcement_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_news/announcement_1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <updated>1702182514621</updated>
       <workItem from="1702182516138" duration="2034000" />
       <workItem from="1702215586795" duration="39000" />
-      <workItem from="1702239939944" duration="71000" />
+      <workItem from="1702239939944" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="Added picture of myself and tested WebStorm.">
       <option name="closed" value="true" />
@@ -102,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702239413224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed the date on the announcement_1.md and edited the name of the site to &quot;Michael Shires&quot;.">
+      <option name="closed" value="true" />
+      <created>1702240053044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702240053044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +119,7 @@
     <MESSAGE value="Added picture of myself and tested WebStorm." />
     <MESSAGE value="added a bit to the config file for socials and hopefully fixed redirect issue." />
     <MESSAGE value="committing change to vcs.xml for build to work." />
-    <option name="LAST_COMMIT_MESSAGE" value="committing change to vcs.xml for build to work." />
+    <MESSAGE value="changed the date on the announcement_1.md and edited the name of the site to &quot;Michael Shires&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the date on the announcement_1.md and edited the name of the site to &quot;Michael Shires&quot;." />
   </component>
 </project>
