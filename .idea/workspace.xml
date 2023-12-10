@@ -4,10 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e7f643-d00a-4c3a-9248-cc692d01c0d0" name="Changes" comment="added workspace xml document.">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="97e7f643-d00a-4c3a-9248-cc692d01c0d0" name="Changes" comment="committing change to vcs.xml for build to work.">
+      <change afterPath="$PROJECT_DIR$/_posts/2023-12-08-about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pdf/MichaelShiresResume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/cv.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/repositories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/repositories.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_news/announcement_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_news/announcement_1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_news/announcement_2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_news/announcement_3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about_einstein.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about_shires.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/cv.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/dropdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/profiles.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/profiles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/unusedStuff_toBeImplemented/projects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/repositories.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/repositories.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/teaching.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-03-15-formatting-and-links.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-05-15-images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-07-15-code.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-10-20-disqus-comments.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-10-20-math.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-12-22-distill.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-github-metadata.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-twitter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-07-04-diagrams.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2022-02-01-redirect.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2022-12-10-giscus-comments.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-03-20-table-of-contents.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-03-21-tables.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-04-24-videos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-04-25-audios.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-04-25-sidebar-table-of-contents.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-05-12-custom-blockquotes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-07-04-jupyter-notebook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-07-12-post-bibliography.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/1_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/1_project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/2_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/2_project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/3_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/3_project.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +56,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,22 +82,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;fix-socials&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "more-socials-and-delete-stuff",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unusedStuff_toBeImplemented" />
+      <recent name="$PROJECT_DIR$/_pages/unusedPages" />
+      <recent name="$PROJECT_DIR$/assets/pdf" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added picture of myself and tested WebStorm." />
+    <MESSAGE value="added a bit to the config file for socials and hopefully fixed redirect issue." />
     <MESSAGE value="committing change to vcs.xml for build to work." />
     <option name="LAST_COMMIT_MESSAGE" value="committing change to vcs.xml for build to work." />
   </component>

@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - MichaelShires
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - MichaelShires/MichaelShires
+  - MichaelShires/MichaelShires.github.io
+  - NittanyLions42/wellnessbuddy
+  - MichaelShires/Tetris
+  - MichaelShires/pathFinder
