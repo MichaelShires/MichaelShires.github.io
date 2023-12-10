@@ -6,11 +6,13 @@ I joined the Navy at 18 years old, exactly six days after graduating high school
 
 ## Penn State
 
-I started taking classes online at Pennsylvaniav State University - World Campus in the spring of 2021. I've completed 80 credits as of the fall of 2023, and will be finishing my degree in the spring of 2025.
+I started taking classes online at Pennsylvania State University - World Campus in the spring of 2021. I've completed 80 credits as of the fall of 2023, and will be finishing my degree in the spring of 2025.
 
 ## Career Goals
 
-My career goals are to pursue a PhD in computer engineering focusing in reliable computing or computer architecture to contribute to critical applications such as flight or reactor protection complex's in a manner that focuses on reliability testability.
+My career goals are to pursue a PhD in computer engineering focusing in reliable computing or computer architecture. I would like to contribute to critical applications such as flight or reactor protection complex's in a manner that focuses on reliability testability.
+
+Because of Navy Tuition Assistance I'm able to leave the service with my undergraduate degree completed and all four years of my G.I. Bill still available. Because of this, funding is not a concern for me.
 
 ## Myself
 
