@@ -6,10 +6,11 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: michael_headshot.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>(804) 629-1322</p>
+    <p>204 Pointer Drive</p>
     <p>Summerville, SC, 29485</p>
 
 news: true  # includes a list of news items
@@ -18,7 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi everyone! My name is Michael, and this is my personal website to share a bit about myself and whatever happens to be on my mind.
+
+Currently, I'm an instructor and active-duty in the U.S. Navy, stationed at [Naval Nuclear Power Training Unit](https://www.navsea.navy.mil/Home/NPTU/Charleston/) (NPTU) Charleston, here in Charleston, South Carolina. I currently work in the Sea-Returnee Off-Crew (SROC) office, where I tea
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
