@@ -4,49 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e7f643-d00a-4c3a-9248-cc692d01c0d0" name="Changes" comment="committing change to vcs.xml for build to work.">
-      <change afterPath="$PROJECT_DIR$/_posts/2023-12-08-about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pdf/MichaelShiresResume.pdf" afterDir="false" />
+    <list default="true" id="97e7f643-d00a-4c3a-9248-cc692d01c0d0" name="Changes" comment="Personalized site and removed a lot of stuff that isn't applicable to me. Clean slate is maintained in the 'template' branch.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/cv.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/repositories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/repositories.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_news/announcement_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_news/announcement_1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_news/announcement_2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_news/announcement_3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about_einstein.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about_shires.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/cv.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/dropdown.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/profiles.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/profiles.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/unusedStuff_toBeImplemented/projects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/repositories.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/repositories.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/teaching.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-03-15-formatting-and-links.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-05-15-images.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-07-15-code.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-10-20-disqus-comments.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-10-20-math.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-22-distill.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-github-metadata.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-twitter.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-07-04-diagrams.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-02-01-redirect.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-12-10-giscus-comments.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-03-20-table-of-contents.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-03-21-tables.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-04-24-videos.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-04-25-audios.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-04-25-sidebar-table-of-contents.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-05-12-custom-blockquotes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-07-04-jupyter-notebook.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-07-12-post-bibliography.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/1_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/1_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/2_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/2_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/3_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/3_project.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "more-socials-and-delete-stuff",
+    "git-widget-placeholder": "fix-title-and-post-date",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -115,6 +76,7 @@
       <updated>1702182514621</updated>
       <workItem from="1702182516138" duration="2034000" />
       <workItem from="1702215586795" duration="39000" />
+      <workItem from="1702239939944" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="Added picture of myself and tested WebStorm.">
       <option name="closed" value="true" />
@@ -132,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702185323476</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Personalized site and removed a lot of stuff that isn't applicable to me. Clean slate is maintained in the 'template' branch.">
+      <option name="closed" value="true" />
+      <created>1702239413224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702239413224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
