@@ -119,6 +119,23 @@
             border-radius: 8px;
             border: 1px solid var(--rule);
         }
+        .repo-link { margin: 0.75rem 0 0; font-size: 0.875rem; }
+
+        #publications .pub-list { display: grid; gap: 1.5rem; }
+        #publications article {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--rule);
+        }
+        #publications h3 {
+            font-size: 1.125rem; text-transform: none;
+            letter-spacing: -0.01em; color: var(--heading);
+            margin: 0 0 0.35rem;
+        }
+        .pub-meta { color: var(--muted); font-size: 0.875rem; font-weight: 500; margin: 0 0 0.75rem; }
+        .pub-desc { margin: 0 0 1rem; }
+        .pub-links { margin: 0; font-size: 0.875rem; }
 
         #contact dl {
             display: grid; grid-template-columns: max-content 1fr;
@@ -142,6 +159,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#publications">Publications</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -150,7 +168,7 @@
     <main>
         <section class="intro">
             <h1>Michael Shires</h1>
-            <p class="tagline">Graduate student in computer engineering and business at the University of Virginia.</p>
+            <p class="tagline">MS/MBA Candidate at the University of Virginia.</p>
         </section>
         <section id="about">
             <h2>About</h2>
@@ -177,6 +195,7 @@
                 <div class="project-card">
                     <dt>Fusion Candidates</dt>
                     <dd>Extending Sniper with several features &mdash; upgrade to SDE 10.X / Pin 4.X for APX support, backslice recording, and more.</dd>
+                    <p class="repo-link"><a href="https://github.com/MichaelShires/snipersim">View on GitHub &rarr;</a></p>
                 </div>
             </div>
             
@@ -185,23 +204,45 @@
                 <div class="project-card">
                     <dt>LLVM APX Analysis</dt>
                     <dd>Using fuzzing and static analysis to evaluate LLVM's ability to take advantage of novel hardware features, with Intel APX as the test subject.</dd>
+                    <p class="repo-link"><a href="https://github.com/MichaelShires/llvm-apx-analysis">View on GitHub &rarr;</a></p>
                 </div>
                 <div class="project-card">
                     <dt>ThermalHammer</dt>
                     <dd>Identifying malicious DRAM access patterns that maximize temperature and reduce equipment lifespan.</dd>
+                    <p class="repo-link"><a href="https://github.com/DepCompProjFa25/DRAMsim3">View on GitHub &rarr;</a></p>
                 </div>
                 <div class="project-card">
                     <dt>DELPHI</dt>
                     <dd>Distributed Extremely Low Power Hardware Inference &mdash; distributing an ML model across ARM M0+ chips.</dd>
+                    <p class="repo-link"><a href="https://github.com/Mircea-s-classes/ai-hardware-project-proposal-ai_hw_mtm">View on GitHub &rarr;</a></p>
                 </div>
                 <div class="project-card">
                     <dt>ECC in PIMeval-PIMbench</dt>
                     <dd>Expanding the PIM simulation framework to support error-correcting codes, with several features.</dd>
+                    <p class="repo-link"><a href="https://github.com/memsyssp26/PIMeval-PIMbench">View on GitHub &rarr;</a></p>
                 </div>
                 <div class="project-card">
                     <dt>IMC Tradeoffs</dt>
                     <dd>Designing and evaluating IMC (SRAM PIM) tradeoffs: 6T vs. 8T bit-cells and bit-serial vs. bit-parallel compute architectures, across area, power, and latency.</dd>
+                    <p class="repo-link"><a href="https://github.com/MichaelShires/vlsi-sram-imc">View on GitHub &rarr;</a></p>
                 </div>
+            </div>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <div class="pub-list">
+                <article>
+                    <h3>An Empirical Framework for Identifying Instruction Fusion Candidates</h3>
+                    <p class="pub-meta">YARCH 2026 &mdash; Young Architect Workshop</p>
+                    <p class="pub-desc">An empirical framework that surfaces high-impact instruction-fusion candidates through three complementary profiling strategies &mdash; consecutive-pair frequency, last-level-cache-miss backslices, and ROB-saturation dependency chains &mdash; evaluated on SPEC CPU 2017 with Intel APX as a case study.</p>
+                    <p class="pub-links"><a href="/yarch26paper.pdf">Read PDF &rarr;</a></p>
+                </article>
+                <article>
+                    <h3>Modeling Tradeoffs of Error Correction Schemes in Processing-in-Memory Architectures</h3>
+                    <p class="pub-meta">OSCAR 2026 Workshop &mdash; with Kelly Farran and Derek Hansen</p>
+                    <p class="pub-desc">Extends the PIMeval-PIMbench simulator with a configurable three-tier ECC hierarchy and a Monte Carlo tool for area, latency, and reliability tradeoffs, showing that scratchpad-ECC granularity dominates overhead across nine PIMbench workloads on a BITSIMD-V device.</p>
+                    <p class="pub-links"><a href="/OSCAR26ECCpaper.pdf">Read PDF &rarr;</a></p>
+                </article>
             </div>
         </section>
         <section id="contact">
